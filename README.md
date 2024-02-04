@@ -87,3 +87,11 @@ Abnormalities in TCP streams were observed in the pcap file. Filters targeting S
 
 <h2>Specific Actions Aligned with NIST:</h2>
 
+1. **Identify (NIST Phase 1):**
+   - Conduct Risk Assessment: Identify potential DDoS vulnerabilities in the existing network infrastructure.
+   - Assess the impact of a SYN Flood Attack on critical systems and services.
+   - Technical View on the Incident: Analyze packet captures (pcap file) to identify patterns of SYN Flood Attack. Use network monitoring tools to recognize abnormal traffic patterns.
+2. **Protect (NIST Phase 2):**
+   - Implement DDoS Mitigation Solutions: Deploy firewalls with SYN flood protection capabilities.
+   - Utilize load balancers to distribute incoming traffic and prevent resource exhaustion. Consider implementing DDoS protection services, including cloud-based solutions.
+   - Network Architecture Review: Assess and enhance the scalability and resilience of the current network architecture. Identify and address potential bottlenecks that could be exploited in future attacks.
