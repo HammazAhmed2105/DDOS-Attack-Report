@@ -32,5 +32,27 @@ Short-term measures involved activating incident response, adjusting firewall se
 Insurance and breach notification considerations include a recommended claim to the cyber insurance provider and potential breach notifications, demonstrating a commitment to transparency and trust restoration.
 
 The organization remains vigilant, continually enhancing its cybersecurity posture to mitigate future threats.
+
+## Table 1: Incident Overview
+
+| Aspect                  | Details                                                                                      |
+|-------------------------|----------------------------------------------------------------------------------------------|
+| Incident Type           | DDoS (SYN Flood Attack)                                                                    |
+| Attack Methods          | 1. Volumetric Attacks: Overwhelming network bandwidth.                                        |
+|                         | 2. Application Layer Attacks: Targeting specific applications or services.                   |
+|                         | 3. Protocol Attacks: Exploiting vulnerabilities in network protocols.                         |
+| Compromised Information  | No direct compromise of information; focus on service disruption.                               |
+| Impact                  | 1. Service Disruption: Website and online services unavailable.                               |
+|                         | 2. Loss of Revenue: Inability to conduct business.                                            |
+|                         | 3. Reputational Damage: Customer trust may be affected.                                       |
+| Short-Term Remediations  | 1. Traffic Filtering: Identifying and blocking malicious traffic.                              |
+|                         | 2. Load Balancing: Distributing incoming traffic to maintain availability.                    |
+|                         | 3. Cloud-based DDoS Protection: Leveraging specialized services.                               |
+| NIST Framework Phases   | 1. Identify: Recognize and understand the DDoS threat.                                        |
+|                         | 2. Protect: Implement measures to safeguard against DDoS attacks.                              |
+|                         | 3. Detect: Monitor network and system activities for signs of DDoS.                            |
+|                         | 4. Respond: Execute an incident response plan when an attack occurs.                            |
+|                         | 5. Recover: Restore services and analyze the incident for improvements.                         |
+
 	
 
