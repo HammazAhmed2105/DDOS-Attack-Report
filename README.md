@@ -95,3 +95,14 @@ Abnormalities in TCP streams were observed in the pcap file. Filters targeting S
    - Implement DDoS Mitigation Solutions: Deploy firewalls with SYN flood protection capabilities.
    - Utilize load balancers to distribute incoming traffic and prevent resource exhaustion. Consider implementing DDoS protection services, including cloud-based solutions.
    - Network Architecture Review: Assess and enhance the scalability and resilience of the current network architecture. Identify and address potential bottlenecks that could be exploited in future attacks.
+3. **Detect (NIST Phase 3):**
+   - Monitor Network Traffic: Utilize intrusion detection systems (IDS) to detect anomalies and potential DDoS attacks. Implement traffic analysis tools to identify unusual patterns in network communication.
+
+4. **Respond (NIST Phase 4):**
+   - Activate Incident Response Plan: Execute predefined incident response steps to minimize damage during the attack.
+   - Adjust firewall settings to filter and block malicious traffic effectively.
+   - Traffic Filtering and Rate Limiting: Apply filters to identify and block malicious SYN packets. Implement rate limiting mechanisms to control the number of connection requests from a single source.
+
+5. **Recover (NIST Phase 5):**
+   - Post-Incident Analysis: Conduct a thorough analysis of the incident to enhance future DDoS preparedness. Identify areas of improvement in the incident response plan for better resilience.
+
