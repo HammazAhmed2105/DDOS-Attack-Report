@@ -63,4 +63,13 @@ The organization remains vigilant, continually enhancing its cybersecurity postu
 ## Incident Occurrence:
 
 The SYN Flood Attack exploited the TCP protocol by inundating our network with a high volume of SYN packets. These packets initiated the 3-way handshake but were not followed by the expected ACK responses, resulting in incomplete handshakes. The attacker aimed to exhaust our network resources, causing disruptions and potentially leading to a denial of service.
+## What Happened During the Incident:
+
+**Identification Through Packet Analysis:**
+Abnormalities in TCP streams were observed in the pcap file. Filters targeting SYN packets and incomplete handshakes revealed a significant increase in traffic, signaling a potential attack. Unusually low time intervals between packets indicated a large number of requests in a short timeframe. TCP spurious transmissions and dup ACKs highlighted network congestion, likely induced by the SYN Flood Attack.
+1. **Abnormalities in TCP Streams:**
+   A comprehensive analysis of the pcap file revealed abnormalities in TCP streams, particularly an influx of SYN packets. Filters targeting SYN packets and incomplete handshakes highlighted a significant increase in traffic, indicating a potential attack.
+
+2. **Sudden Increase in CPU Consumption:**
+   There was a sudden peak during the attack, and a lot of resources were utilized. This was probably done to overload the CPU.
 
