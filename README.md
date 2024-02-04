@@ -85,5 +85,5 @@ Abnormalities in TCP streams were observed in the pcap file. Filters targeting S
    Incident responders also observed an increase in "TCP Spurious Transmission," where the receiver is receiving a retransmitted segment even before the ACK packet is sent. This can be an indicator of a SYN Flood Attack. The below screenshot also highlights "TCP dup ACK," showing the arrival of multiple ACK packets. This is usually attributed to network congestion or packet loss, further indicating a potential SYN Flood Attack.
 <img src="https://i.imgur.com/lz3Rr29.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 
-**Specific Actions Aligned with NIST:**
+<h2>Specific Actions Aligned with NIST:</h2>
 
