@@ -72,4 +72,4 @@ Abnormalities in TCP streams were observed in the pcap file. Filters targeting S
 
 2. **Sudden Increase in CPU Consumption:**
    There was a sudden peak during the attack, and a lot of resources were utilized. This was probably done to overload the CPU.
-
+<img src="https://i.imgur.com/5QLrFcr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
