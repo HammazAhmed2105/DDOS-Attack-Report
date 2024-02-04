@@ -107,6 +107,7 @@ Abnormalities in TCP streams were observed in the pcap file. Filters targeting S
    - Post-Incident Analysis: Conduct a thorough analysis of the incident to enhance future DDoS preparedness. Identify areas of improvement in the incident response plan for better resilience.
 
 <h2>Short Term Remidiations</h2>
+
 1. **Incident Response Activation:**
    The incident was escalated to the Incident Response Team Manager for further investigation. Immediate monitoring and logging of network activities were initiated to contain the impact. Emergency measures, such as adjusting firewall settings to filter malicious traffic, were implemented to mitigate ongoing risks.
 
