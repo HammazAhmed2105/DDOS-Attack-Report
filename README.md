@@ -79,4 +79,11 @@ Abnormalities in TCP streams were observed in the pcap file. Filters targeting S
 <img src="https://i.imgur.com/MxOminx.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 4. <b>Suspicious Time Interval of Packet Arrival:</b>
    According to incident responders, the time interval in which the packets are arriving is suspiciously low. This indicates an extremely large number of requests occurring in a brief interval of time, which is highly unusual and indicative of a potential attack.
-<img src="https://i.imgur.com/reblTbv.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/reblTbv.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
+
+5. **Observations on TCP Spurious Transmission and dup ACK:**
+   Incident responders also observed an increase in "TCP Spurious Transmission," where the receiver is receiving a retransmitted segment even before the ACK packet is sent. This can be an indicator of a SYN Flood Attack. The below screenshot also highlights "TCP dup ACK," showing the arrival of multiple ACK packets. This is usually attributed to network congestion or packet loss, further indicating a potential SYN Flood Attack.
+<img src="https://i.imgur.com/lz3Rr29.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+
+**Specific Actions Aligned with NIST:**
+
