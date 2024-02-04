@@ -113,3 +113,17 @@ Abnormalities in TCP streams were observed in the pcap file. Filters targeting S
 
 2. **Traffic Filtering and Rate Limiting:**
    Filters were applied to the network to identify and block malicious SYN packets. Rate limiting mechanisms were deployed to restrict the number of connection requests from a single source, mitigating the impact of the attack.
+
+<h2>Long-Term Remediations Needed for the Roadmap:</h2>
+
+1. **Network Architecture Review:**
+   Evaluate and enhance the scalability and resilience of our network architecture to better withstand volumetric attacks.
+
+2. **Intrusion Prevention Systems (IPS):**
+   Implement or enhance IPS to detect and block malicious network activities in real-time.
+
+3. **Distributed Denial of Service (DDoS) Mitigation Plan:**
+   Develop a comprehensive DDoS mitigation plan to ensure timely and effective responses to various types of attacks.
+
+4. **Regular Security Audits and Training:**
+   Conduct regular security audits to identify vulnerabilities and weaknesses. Provide ongoing cybersecurity training to employees to enhance awareness and response capabilities.
