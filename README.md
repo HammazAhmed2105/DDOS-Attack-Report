@@ -18,5 +18,10 @@ What happened during the incident
 Short term remediations put into place
 Long term remediations needed for the roadmap
 What a claim needs to be made to our cyber insurance provider or whether we need to send a breach notification (and why)
+
 <h2>Blue Team Incident Paper: Reporting of a DDoS Attack.</h2>
+
 <h3>Executive Summary:</h3>
+JPMorgan Chase & Co. recently encountered a severe SYN Flood Attack, a form of Distributed Denial of Service (DDoS). The attack overwhelmed network resources, causing disruptions and potential denial of service. Immediate short-term remediations included traffic filtering, load balancing, and cloud-based DDoS protection. Aligned with the NIST framework, specific actions were taken in the identification, protection, detection, response, and recovery phases. During the incident, abnormal TCP stream patterns, sudden CPU spikes, and Wireshark analysis indicated a coordinated attack. The attack was from an Eastern European based hacking group.
+Short-term measures involved activating incident response, adjusting firewall settings, and applying traffic filters. Long-term roadmap considerations encompass network architecture review, Intrusion Prevention Systems (IPS) implementation, a DDoS mitigation plan, and ongoing security audits and training. Insurance and breach notification considerations include a recommended claim to the cyber insurance provider and potential breach notifications, demonstrating a commitment to transparency and trust restoration. The organization remains vigilant, continually enhancing its cybersecurity posture to mitigate future threats. 	
+
