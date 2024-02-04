@@ -72,4 +72,11 @@ Abnormalities in TCP streams were observed in the pcap file. Filters targeting S
 
 2. **Sudden Increase in CPU Consumption:**
    There was a sudden peak during the attack, and a lot of resources were utilized. This was probably done to overload the CPU.
-<img src="https://i.imgur.com/5QLrFcr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5QLrFcr.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+
+3. **Wireshark Analysis and Filter Usage:**
+   To analyze the incident, our Incident Responders used Wireshark and the filter `tcp.flags.syn==1 && tcp.flags.ack==0`. This filter is designed to capture TCP packets that are part of the 3-way handshake. Missing a proper 3-way handshake can indicate a potential SYN Flood Attack. In fact, we observed numerous synchronization packets but found no sign of a complete handshake in the below image.
+<img src="https://i.imgur.com/MxOminx.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+4. **Suspicious Time Interval of Packet Arrival:**
+   According to incident responders, the time interval in which the packets are arriving is suspiciously low. This indicates an extremely large number of requests occurring in a brief interval of time, which is highly unusual and indicative of a potential attack.
+<img src="https://i.imgur.com/reblTbv.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
