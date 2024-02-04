@@ -141,5 +141,10 @@ Abnormalities in TCP streams were observed in the pcap file. Filters targeting S
 - Consult legal counsel to determine compliance with relevant data protection regulations and contractual obligations.
 - Timely communication with affected parties is crucial for transparency and trust restoration.
 
-### Detailed Incident Report:
-This detailed report provides a comprehensive overview of the SYN Flood Attack, actions taken during and after the incident, and outlines the roadmap for strengthening our cybersecurity posture.
+### References:
+1. Goss, A. (2023, December 12). How to use Wireshark to capture network traffic (2024). StationX. [Link](https://www.stationx.net/how-to-use-wireshark-to-capture-network-traffic/)
+
+2. Increase AWS visibility & improve cloud security - Red Canary. (2023, December 8). Red Canary. [Link](https://redcanary.com/resources/guides/aws-visibility-cloud-security/?_bt=684688588777&_bk=cloud%20data%20security&_bm=b&_bn=g&_bg=158423595964&gad_source=1&gclid=CjwKCAiA1fqrBhA1EiwAMU5m_35WuIiV-55OPvUGPrJqCZC1TSS7a3RQK4LgRvGUNN5ZQHZ9xLZqHhoCALIQAvD_BwE)
+
+3. Wikipedia contributors. (2023b, December 15). Denial-of-service attack. Wikipedia. [Link](https://en.wikipedia.org/wiki/Denial-of-service_attack)
+
