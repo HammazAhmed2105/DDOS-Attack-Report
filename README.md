@@ -148,5 +148,5 @@ Abnormalities in TCP streams were observed in the pcap file. Filters targeting S
 
 3. Wikipedia contributors. (2023b, December 15). Denial-of-service attack. Wikipedia. [Link](https://en.wikipedia.org/wiki/Denial-of-service_attack)
 
-<h1>© John Doe 2024. All rights reserved.
+<h1>© Hammaz Ahmed 2024. All rights reserved.
 </h1>
