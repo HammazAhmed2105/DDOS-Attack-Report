@@ -60,4 +60,7 @@ The organization remains vigilant, continually enhancing its cybersecurity postu
 |                              | 5. Post-Incident Analysis:                                           |
 
 	
+## Incident Occurrence:
+
+The SYN Flood Attack exploited the TCP protocol by inundating our network with a high volume of SYN packets. These packets initiated the 3-way handshake but were not followed by the expected ACK responses, resulting in incomplete handshakes. The attacker aimed to exhaust our network resources, causing disruptions and potentially leading to a denial of service.
 
